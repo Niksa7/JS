@@ -1,0 +1,45 @@
+.text {
+    border-radius: 5px;
+    font-size: 40px;
+    font-weight: bold;
+    color: black;
+}
+
+h1 {
+    display: grid;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    margin: auto;
+    padding: 20px;
+    width: 600px;
+}
+
+.txbox {
+    font-size: 12px;
+    padding: 7px;
+    border: 3px solid black;
+    border-radius: 5px;
+}
+
+.submit {
+    font-size: 25px;
+    padding: 5px 10px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 200px;
+}
+
+.submit:hover {
+    background-color: green;
+}
+
+* {
+    margin: 10px 0;
+}
